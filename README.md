@@ -19,7 +19,7 @@ Caddyfile
 http://127.0.0.1:2021 {
     zauth {
         auth_db_dir ./authdb
-        auth_admin_addr 127.0.0.1:198
+        auth_admin_addr 127.0.0.1:1983
     }
     zlog {
         log_dir ./server_zerolog
